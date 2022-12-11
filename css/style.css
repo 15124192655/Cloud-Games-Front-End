@@ -1,3 +1,8 @@
+body{
+    margin: 0px;
+    /* font-size: 0; */
+}
+
 .content{
     width: 100vw;
     height: 100vh;
@@ -118,30 +123,67 @@
     background: #535353;
 }
 
-.rwd-table{
+.rwd-table1{
     font-family: Montserrat, sans-serif;
     -webkit-font-smoothing: antialiased;
     color: antiquewhite;
     text-align: center;
-    background-color: blue;
+    /* background-color: blue; */
     width: 54vw;
-    height: 36vh;
+    height: 6vh;
     margin-left: 2vw;
+    /* overflow-y: auto;
+    overflow-x: none; */
+}
+
+.rwd-table1 th{
+    width: 5.4vw;
+    height: 6vh;
+    font-size: 20px;
+    /* position: sticky;
+    top: 0; */
+    /* background: rgba(255,255,255,0.13); */
+}
+
+.rwd-table2{
+    font-family: Montserrat, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: white;
+    /* text-align: center; */
+    width: 54vw;
+    height: 30vh;
+    margin-left: 2vw;
+    margin-top: 2vh;
     overflow-y: auto;
     overflow-x: none;
 }
 
-.rwd-table th{
-    width: 5.4vw;
-    height: 6vh;
-    font-size: 20px;
-    position: sticky;
-    top: 0;
-    /* background: rgba(255,255,255,0.13); */
-}
-
-.rwd-table td{
+.rwd-table2 td{
     color: white;
     width: 5.4vw;
     height: 6vh;
+    text-align: center;
+}
+
+.rwd-table2::-webkit-scrollbar{
+    /* 滚动条整体样式 */
+    width: 5px;
+    height: 1px;
+}
+.rwd-table2::-webkit-scrollbar-thumb{
+    /* 滚动条里面小方块 */
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background: #ededed;
+}
+.rwd-table2::-webkit-scrollbar-track{
+    /* 滚动条里面轨道 */
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background: #535353;
+}
+
+.data_title{
+    /* background-color: grey; */
+    text-align: center;
 }
