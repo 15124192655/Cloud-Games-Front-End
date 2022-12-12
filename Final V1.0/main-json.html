@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>云游戏测试监控平台</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+    <div class="content">
+        <div class="shape1"></div>
+        <div class="shape2"></div>
+        <div class="Title">
+            <h1>云游戏测试监控平台</h1>
+        </div>
+        <div class="data">
+            <div class="data_title"><p id="text1">测试用例</p></div>
+            <div class="rwd-table1">
+                <table id="mytab-head">
+                    <tr>
+                        <th>ID</th>
+                        <th>参数2</th>
+                        <th>已测<br>次数</th>
+                        <th>丢包率</th>
+                        <th>带宽</th>
+                        <th>参数6</th>
+                        <th>参数7</th>
+                        <th>参数8</th>
+                        <th>参数9</th>
+                        <th>帧率</th>
+                    </tr>
+                </table>
+            </div>
+            <div class="rwd-table2">
+                <div class="rwd-table2-content">
+                    <table id="mytab-body"></table>
+                </div>
+            </div>
+            <div class="page-list">
+                <button class="LastPage" onclick="LastPage()">上一组</button>
+                <button class="NextPage" onclick="NextPage()">下一组</button>
+                <p>第</p> <textarea placeholder="1" id="page-input">1</textarea> <p>组</p>
+                <button class="page-button" onclick="loadXMLDoc()">跳转</button>
+            </div>
+        </div>
+        <div class="info">
+            <p id="text2">反馈信息</p>
+            <!-- <textarea placeholder="" id="info-text"></textarea> -->
+            <p id="info-text">666</p>
+        </div>
+    </div>
+</body>
+</html>
