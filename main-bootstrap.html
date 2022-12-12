@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>云游戏</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+<!-- 
     <link rel="stylesheet" type="text/css" href="css/bootstrap-table.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <script type="text/javascript" src="js/jquery-3.6.1.min.js"></script>
@@ -13,6 +14,7 @@
     <script type="text/javascript" src="js/bootstrap-table.js"></script>
     <script type="text/javascript" src="js/bootstrap-table.js"></script>
     <script type="text/javascript" src="js/bootstrap-table-zh-CN.min.js"></script>
+     -->
     <script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
@@ -44,6 +46,10 @@
                 <div class="rwd-table2-content">
                     <table id="mytab-body"></table>
                 </div>
+            </div>
+            <div class="page-list">
+                <p>第</p> <textarea placeholder="1" id="page-input"></textarea> <p>组</p>
+                <button class="page-button" onclick="loadXMLDoc()">跳转</button>
             </div>
         </div>
         <div class="info">
