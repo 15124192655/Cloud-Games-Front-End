@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>云游戏测试监控平台</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="font/iconfont.css">
 <!-- 
     <link rel="stylesheet" type="text/css" href="css/bootstrap-table.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -42,7 +43,7 @@
                     </tr>
                 </table>
             </div>
-            <div class="rwd-table2">
+            <div class="rwd-table2" id="rwd-table2-id">
                 <div class="rwd-table2-content">
                     <table id="mytab-body"></table>
                 </div>
@@ -50,14 +51,24 @@
             <div class="page-list">
                 <button class="LastPage" onclick="LastPage()">上一组</button>
                 <button class="NextPage" onclick="NextPage()">下一组</button>
-                <p>第</p> <textarea placeholder="1" id="page-input">1</textarea> <p>组</p>
-                <button class="page-button" onclick="loadXMLDoc()">跳转</button>
+                <p>第</p>
+                <textarea placeholder="1" id="page-input">1</textarea>
+                <!-- page-input2是隐藏元素，用于记录输入框内历史页码，
+                若page-input输入页码超出范围，则将其value改为page-input2的value -->
+                <textarea placeholder="1" id="page-input2">1</textarea>
+                <p>组</p>
+                <button class="page-button" onclick="loadXMLDoc3()">跳转</button>
             </div>
         </div>
         <div class="info">
             <p id="text2">反馈信息</p>
             <!-- <textarea placeholder="" id="info-text"></textarea> -->
             <p id="info-text">666</p>
+            <p id="info-text2">隐藏元素，用于记录历史消息</p>
+            <p id="new-info" onclick="PageToBottom()"> 
+                <span class="iconfont icon-downarrow" style="color:#f09819;"></span>
+                有新信息
+            </p>
         </div>
     </div>
 </body>

@@ -34,5 +34,21 @@
     {
         "type": "info",
         "content": "“手机一”已成功加载“测试用例36”。"
+    },
+    {
+        "type": "error",
+        "content": "这是一条报错信息4。"
+    },
+    {
+        "type": "error",
+        "content": "这是一条报错信息5。"
+    },
+    {
+        "type": "info",
+        "content": "“手机一”已成功加载“测试用例56”。"
+    },
+    {
+        "type": "error",
+        "content": "这是一条报错信息6。"
     }
 ]

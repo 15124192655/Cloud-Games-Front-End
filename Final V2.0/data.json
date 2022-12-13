@@ -290,7 +290,7 @@
     {
         "id": "25",
         "data2": "22",
-        "times": "3次",
+        "times": "6次",
         "packet": "2%",
         "bandwidth": "500Mbps",
         "data6": "66",
@@ -314,7 +314,7 @@
     {
         "id": "27",
         "data2": "22",
-        "times": "2次",
+        "times": "10次",
         "packet": "2%",
         "bandwidth": "500Mbps",
         "data6": "66",
