@@ -71,7 +71,7 @@ function LastPage(){
 }
 
 // ajax，实现反馈信息的局部刷新
-function loadXMLDoc2(){
+function loadXMLDoc2(file_path){
     var xmlhttp;
     if(window.XMLHttpRequest)
     {
@@ -87,7 +87,8 @@ function loadXMLDoc2(){
             myFunction2(myArr);
         }
     }
-    file_path = "/data/info"+".json";
+    // file_path = "/data/info1.json";
+    // console.log(file_path);
     xmlhttp.open("GET",file_path,true);
     xmlhttp.setRequestHeader("Content-Type","application/json;charset=UTF-8");
     xmlhttp.send();
@@ -153,6 +154,14 @@ function myFunction2(info){
     // ***************************************************************************************************
 }
 
+// ajax，实现反馈信息的局部刷新，实现反馈信息对应手机分组
+function loadXMLDoc2_group(){
+    var pagenum = PageJump2();
+    file_path = "/data/info"+pagenum+".json";
+    // console.log(file_path);
+    loadXMLDoc2(file_path);
+}
+
 // ajax，实现页面跳转
 function loadXMLDoc3(){
     var xmlhttp;
@@ -209,9 +218,9 @@ function PageToBottom(){
     scroll.scrollTop = scroll.scrollHeight;
     document.getElementById("new-info").style.visibility="hidden";
 }
-
 loadXMLDoc();
-loadXMLDoc2();
+file_path = "/data/info1.json";
+loadXMLDoc2(file_path);
 // 调试用，设计的刷新时间很短，根据情况修改
 setInterval(loadXMLDoc,20);
-setInterval(loadXMLDoc2,20);
+setInterval(loadXMLDoc2_group,20);
