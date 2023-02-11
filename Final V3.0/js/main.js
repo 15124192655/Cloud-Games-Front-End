@@ -158,7 +158,9 @@ function myFunction2(info){
 function loadXMLDoc2_group(){
     var pagenum = PageJump2();
     file_path = "/data/info"+pagenum+".json";
-    // console.log(file_path);
+    var group = ["一","二","三","四","五","六","七","八","九","十"];
+    document.getElementById('text2').innerHTML = '手机'+group[pagenum-1]+' 反馈信息';
+    document.getElementById('text1').innerHTML = '手机'+group[pagenum-1]+' 测试用例';
     loadXMLDoc2(file_path);
 }
 
