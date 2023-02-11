@@ -15,7 +15,7 @@ function loadXMLDoc(){
             myFunction(myArr);
         }
     }
-    xmlhttp.open("GET","/data.json",true);
+    xmlhttp.open("GET","/data/data.json",true);
     xmlhttp.setRequestHeader("Content-Type","application/json;charset=UTF-8");
     xmlhttp.send();
 }
@@ -87,7 +87,8 @@ function loadXMLDoc2(){
             myFunction2(myArr);
         }
     }
-    xmlhttp.open("GET","/info.json",true);
+    file_path = "/data/info"+".json";
+    xmlhttp.open("GET",file_path,true);
     xmlhttp.setRequestHeader("Content-Type","application/json;charset=UTF-8");
     xmlhttp.send();
 }
@@ -169,7 +170,7 @@ function loadXMLDoc3(){
             myFunction3(myArr);
         }
     }
-    xmlhttp.open("GET","/data.json",true);
+    xmlhttp.open("GET","/data/data.json",true);
     xmlhttp.setRequestHeader("Content-Type","application/json;charset=UTF-8");
     xmlhttp.send();
 }
