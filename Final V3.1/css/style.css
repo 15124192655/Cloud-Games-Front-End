@@ -143,7 +143,7 @@ body{
     height: 48vh;
     margin-left: 2vw;
     /* font-size: 17px; */
-    font-size: ;
+    font-size: 1vw;
     display: none;
 }
 
@@ -154,6 +154,7 @@ body{
     text-align: center;
     /* display: none; */
     visibility: hidden;
+    font-size: 1vw;
 }
 
 .rwd-table1{
@@ -188,6 +189,7 @@ body{
     margin-top: 2vh;
     overflow-y: auto;
     overflow-x: none;
+    font-size: 0.9vw;
 }
 
 .rwd-table2::-webkit-scrollbar{
@@ -242,6 +244,7 @@ table{
     /* background-color: blue; */
     width: 25vw;
     height: 8vh;
+    /* height: 14.2vw; */
     margin-left: 33vw;
     /* font-size: 20px; */
     font-size: 1vw;
@@ -255,16 +258,19 @@ table{
 #page-input{
     /* width: 39px; */
     /* height: 22px; */
-    width: 2vw;
-    height: 3vh;
+    width: 2.2vw;
+    height: 1.24vw;
     outline: none;
     resize: none;
     /* font-size: 19px; */
-    font-size: 1vw;
+    font-size: 1.07vw;
     text-align: center;
-    margin-left: 6px;
-    margin-right: 6px;
+    /* margin-left: 6px;
+    margin-right: 6px; */
+    margin-left: 0.338vw;
+    margin-right: 0.338vw;
     /* align-items: center; */
+    justify-self: center;
     font-weight: 650;
 }
 
@@ -285,8 +291,9 @@ table{
 .page-button{
     /* align-items: center; */
     /* font-size: 18px; */
-    font-size: 1vw;
-    margin-left: 15px;
+    font-size: 1.1vw;
+    /* margin-left: 15px; */
+    margin-left: 0.846vw;
     cursor: pointer;
     font-weight: 550;
     border-radius: 5px;
@@ -295,7 +302,7 @@ table{
 
 .LastPage{
     /* font-size:18px; */
-    font-size: 1.3vw;
+    font-size: 1.1vw;
     cursor: pointer;
     font-weight: 550;
     border-radius: 5px;
@@ -304,9 +311,11 @@ table{
 
 .NextPage{
     /* font-size: 18px; */
-    font-size: 1.3vw;
-    margin-left: 20px;
-    margin-right: 30px;
+    font-size: 1.1vw;
+    /* margin-left: 20px;
+    margin-right: 30px; */
+    margin-left: 1.128vw;
+    margin-right: 1.692vw;
     cursor: pointer;
     font-weight: 550;
     border-radius: 5px;
