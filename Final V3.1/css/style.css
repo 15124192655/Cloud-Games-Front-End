@@ -55,14 +55,15 @@ body{
 #text1{
     color: #23a2f6;
     text-align: center;
-    font-size: 25px;
-    /* font-size: 1vw; */
+    /* font-size: 25px; */
+    font-size: 1.3vw;
 }
 
 #text2{
     color: #f09819;
     text-align: center;
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 1.3vw;
 }
 
 .shape1{
@@ -106,7 +107,8 @@ body{
     width: 16vw;
     height: 45vh;
     margin-left: 2vw;
-    font-size: 17px
+    /* font-size: 17px */
+    font-size: 1vw;
 }
 
 #info-text::-webkit-scrollbar{
@@ -140,7 +142,8 @@ body{
     width: 16vw;
     height: 48vh;
     margin-left: 2vw;
-    font-size: 17px;
+    /* font-size: 17px; */
+    font-size: ;
     display: none;
 }
 
@@ -170,7 +173,8 @@ body{
 .rwd-table1 th{
     width: 5.4vw;
     height: 6vh;
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 1vw;
     /* position: sticky;
     top: 0; */
     /* background: rgba(255,255,255,0.13); */
@@ -239,7 +243,8 @@ table{
     width: 25vw;
     height: 8vh;
     margin-left: 33vw;
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 1vw;
     color: antiquewhite;
     display: flex;
     align-items: center;
@@ -248,11 +253,14 @@ table{
 }
 
 #page-input{
-    width: 39px;
-    height: 22px;
+    /* width: 39px; */
+    /* height: 22px; */
+    width: 2vw;
+    height: 3vh;
     outline: none;
     resize: none;
-    font-size: 19px;
+    /* font-size: 19px; */
+    font-size: 1vw;
     text-align: center;
     margin-left: 6px;
     margin-right: 6px;
@@ -276,7 +284,8 @@ table{
 
 .page-button{
     /* align-items: center; */
-    font-size: 18px;
+    /* font-size: 18px; */
+    font-size: 1vw;
     margin-left: 15px;
     cursor: pointer;
     font-weight: 550;
@@ -285,7 +294,8 @@ table{
 }
 
 .LastPage{
-    font-size:18px;
+    /* font-size:18px; */
+    font-size: 1.3vw;
     cursor: pointer;
     font-weight: 550;
     border-radius: 5px;
@@ -293,7 +303,8 @@ table{
 }
 
 .NextPage{
-    font-size: 18px;
+    /* font-size: 18px; */
+    font-size: 1.3vw;
     margin-left: 20px;
     margin-right: 30px;
     cursor: pointer;
