@@ -1,0 +1,54 @@
+[
+    {
+        "type": "info",
+        "content": "“测试用例60”实验数据已采集完毕，目前为第2次采集。"
+    },
+    {
+        "type": "info",
+        "content": "“手机三”已成功加载“测试用例60”。"
+    },
+    {
+        "type": "error",
+        "content": "这是一条报错信息。"
+    },
+    {
+        "type": "info",
+        "content": "“测试用例61”实验数据已采集完毕，目前为第3次采集。"
+    },
+    {
+        "type": "error",
+        "content": "这是一条报错信息2。"
+    },
+    {
+        "type": "info",
+        "content": "“手机三”已成功加载“测试用例61”。"
+    },
+    {
+        "type": "error",
+        "content": "这是一条报错信息3。"
+    },
+    {
+        "type": "info",
+        "content": "“手机三”已成功加载“测试用例66”。"
+    },
+    {
+        "type": "info",
+        "content": "“手机三”已成功加载“测试用例36”。"
+    },
+    {
+        "type": "error",
+        "content": "这是一条报错信息4。"
+    },
+    {
+        "type": "error",
+        "content": "这是一条报错信息5。"
+    },
+    {
+        "type": "info",
+        "content": "“手机三”已成功加载“测试用例53”。"
+    },
+    {
+        "type": "error",
+        "content": "这是一条报错信息6。"
+    }
+]
